@@ -1,14 +1,13 @@
 //
-//  ViewController.h
+//  RefreshButton.h
 //  ColorGame
 //
-//  Created by louis on 14-7-31.
+//  Created by louis on 14-8-1.
 //  Copyright (c) 2014年 louis. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface RefreshButton : UIButton
 
 @end

@@ -19,11 +19,17 @@
 		BF9B52131989E47700E43B8B /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9B52111989E47700E43B8B /* MainStoryboard_iPhone.storyboard */; };
 		BF9B52161989E47700E43B8B /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9B52141989E47700E43B8B /* MainStoryboard_iPad.storyboard */; };
 		BF9B52191989E47700E43B8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9B52181989E47700E43B8B /* ViewController.m */; };
-		BF9B52211989E47800E43B8B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9B52201989E47800E43B8B /* SenTestingKit.framework */; };
 		BF9B52221989E47800E43B8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9B51F91989E47600E43B8B /* UIKit.framework */; };
 		BF9B52231989E47800E43B8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9B51FB1989E47600E43B8B /* Foundation.framework */; };
 		BF9B522B1989E47800E43B8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF9B52291989E47800E43B8B /* InfoPlist.strings */; };
 		BF9B522E1989E47900E43B8B /* ColorGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9B522D1989E47900E43B8B /* ColorGameTests.m */; };
+		BF9B523A1989E4C100E43B8B /* GridView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9B52391989E4C100E43B8B /* GridView.m */; };
+		BF9B523E1989E83900E43B8B /* GridTable.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9B523D1989E83900E43B8B /* GridTable.m */; };
+		BF9B52411989E84300E43B8B /* Grid.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9B52401989E84300E43B8B /* Grid.m */; };
+		BF9B5246198A53B700E43B8B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9B5245198A53B700E43B8B /* QuartzCore.framework */; };
+		BF9B524D198B2DBA00E43B8B /* PlayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9B524C198B2DBA00E43B8B /* PlayButton.m */; };
+		BF9B5250198B532A00E43B8B /* RefreshButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9B524F198B532A00E43B8B /* RefreshButton.m */; };
+		BF9B5253198B58A200E43B8B /* SkipButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9B5252198B58A200E43B8B /* SkipButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,12 +60,24 @@
 		BF9B52151989E47700E43B8B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		BF9B52171989E47700E43B8B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BF9B52181989E47700E43B8B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BF9B521F1989E47800E43B8B /* ColorGameTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorGameTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF9B52201989E47800E43B8B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BF9B521F1989E47800E43B8B /* ColorGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF9B52281989E47800E43B8B /* ColorGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorGameTests-Info.plist"; sourceTree = "<group>"; };
 		BF9B522A1989E47800E43B8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BF9B522C1989E47900E43B8B /* ColorGameTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorGameTests.h; sourceTree = "<group>"; };
 		BF9B522D1989E47900E43B8B /* ColorGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorGameTests.m; sourceTree = "<group>"; };
+		BF9B52381989E4C100E43B8B /* GridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridView.h; sourceTree = "<group>"; };
+		BF9B52391989E4C100E43B8B /* GridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridView.m; sourceTree = "<group>"; };
+		BF9B523C1989E83900E43B8B /* GridTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridTable.h; sourceTree = "<group>"; };
+		BF9B523D1989E83900E43B8B /* GridTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridTable.m; sourceTree = "<group>"; };
+		BF9B523F1989E84300E43B8B /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grid.h; sourceTree = "<group>"; };
+		BF9B52401989E84300E43B8B /* Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grid.m; sourceTree = "<group>"; };
+		BF9B5245198A53B700E43B8B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BF9B524B198B2DBA00E43B8B /* PlayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayButton.h; sourceTree = "<group>"; };
+		BF9B524C198B2DBA00E43B8B /* PlayButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayButton.m; sourceTree = "<group>"; };
+		BF9B524E198B532A00E43B8B /* RefreshButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefreshButton.h; sourceTree = "<group>"; };
+		BF9B524F198B532A00E43B8B /* RefreshButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshButton.m; sourceTree = "<group>"; };
+		BF9B5251198B58A200E43B8B /* SkipButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkipButton.h; sourceTree = "<group>"; };
+		BF9B5252198B58A200E43B8B /* SkipButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkipButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF9B5246198A53B700E43B8B /* QuartzCore.framework in Frameworks */,
 				BF9B51FA1989E47600E43B8B /* UIKit.framework in Frameworks */,
 				BF9B51FC1989E47600E43B8B /* Foundation.framework in Frameworks */,
 				BF9B51FE1989E47600E43B8B /* CoreGraphics.framework in Frameworks */,
@@ -77,7 +96,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF9B52211989E47800E43B8B /* SenTestingKit.framework in Frameworks */,
 				BF9B52221989E47800E43B8B /* UIKit.framework in Frameworks */,
 				BF9B52231989E47800E43B8B /* Foundation.framework in Frameworks */,
 			);
@@ -89,6 +107,7 @@
 		BF9B51ED1989E47600E43B8B = {
 			isa = PBXGroup;
 			children = (
+				BF9B5245198A53B700E43B8B /* QuartzCore.framework */,
 				BF9B51FF1989E47600E43B8B /* ColorGame */,
 				BF9B52261989E47800E43B8B /* ColorGameTests */,
 				BF9B51F81989E47600E43B8B /* Frameworks */,
@@ -100,7 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				BF9B51F61989E47600E43B8B /* ColorGame.app */,
-				BF9B521F1989E47800E43B8B /* ColorGameTests.octest */,
+				BF9B521F1989E47800E43B8B /* ColorGameTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,7 +130,6 @@
 				BF9B51F91989E47600E43B8B /* UIKit.framework */,
 				BF9B51FB1989E47600E43B8B /* Foundation.framework */,
 				BF9B51FD1989E47600E43B8B /* CoreGraphics.framework */,
-				BF9B52201989E47800E43B8B /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,8 +137,9 @@
 		BF9B51FF1989E47600E43B8B /* ColorGame */ = {
 			isa = PBXGroup;
 			children = (
-				BF9B52081989E47700E43B8B /* AppDelegate.h */,
-				BF9B52091989E47700E43B8B /* AppDelegate.m */,
+				BF9B5247198A9AEA00E43B8B /* CustomeUIKit */,
+				BF9B523B1989E81B00E43B8B /* Models */,
+				BF9B52371989E4A200E43B8B /* Views */,
 				BF9B52111989E47700E43B8B /* MainStoryboard_iPhone.storyboard */,
 				BF9B52141989E47700E43B8B /* MainStoryboard_iPad.storyboard */,
 				BF9B52171989E47700E43B8B /* ViewController.h */,
@@ -133,6 +152,8 @@
 		BF9B52001989E47700E43B8B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BF9B52081989E47700E43B8B /* AppDelegate.h */,
+				BF9B52091989E47700E43B8B /* AppDelegate.m */,
 				BF9B52011989E47700E43B8B /* ColorGame-Info.plist */,
 				BF9B52021989E47700E43B8B /* InfoPlist.strings */,
 				BF9B52051989E47700E43B8B /* main.m */,
@@ -161,6 +182,39 @@
 				BF9B52291989E47800E43B8B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF9B52371989E4A200E43B8B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF9B52381989E4C100E43B8B /* GridView.h */,
+				BF9B52391989E4C100E43B8B /* GridView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BF9B523B1989E81B00E43B8B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BF9B523C1989E83900E43B8B /* GridTable.h */,
+				BF9B523D1989E83900E43B8B /* GridTable.m */,
+				BF9B523F1989E84300E43B8B /* Grid.h */,
+				BF9B52401989E84300E43B8B /* Grid.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BF9B5247198A9AEA00E43B8B /* CustomeUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				BF9B524B198B2DBA00E43B8B /* PlayButton.h */,
+				BF9B524C198B2DBA00E43B8B /* PlayButton.m */,
+				BF9B524E198B532A00E43B8B /* RefreshButton.h */,
+				BF9B524F198B532A00E43B8B /* RefreshButton.m */,
+				BF9B5251198B58A200E43B8B /* SkipButton.h */,
+				BF9B5252198B58A200E43B8B /* SkipButton.m */,
+			);
+			name = CustomeUIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +253,8 @@
 			);
 			name = ColorGameTests;
 			productName = ColorGameTests;
-			productReference = BF9B521F1989E47800E43B8B /* ColorGameTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productReference = BF9B521F1989E47800E43B8B /* ColorGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -208,8 +262,14 @@
 		BF9B51EE1989E47600E43B8B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0510;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = louis;
+				TargetAttributes = {
+					BF9B51F51989E47600E43B8B = {
+						DevelopmentTeam = HLE64JEVJ5;
+					};
+				};
 			};
 			buildConfigurationList = BF9B51F11989E47600E43B8B /* Build configuration list for PBXProject "ColorGame" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -277,6 +337,12 @@
 				BF9B52061989E47700E43B8B /* main.m in Sources */,
 				BF9B520A1989E47700E43B8B /* AppDelegate.m in Sources */,
 				BF9B52191989E47700E43B8B /* ViewController.m in Sources */,
+				BF9B523A1989E4C100E43B8B /* GridView.m in Sources */,
+				BF9B523E1989E83900E43B8B /* GridTable.m in Sources */,
+				BF9B52411989E84300E43B8B /* Grid.m in Sources */,
+				BF9B524D198B2DBA00E43B8B /* PlayButton.m in Sources */,
+				BF9B5250198B532A00E43B8B /* RefreshButton.m in Sources */,
+				BF9B5253198B58A200E43B8B /* SkipButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,10 +461,13 @@
 		BF9B52321989E47900E43B8B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ColorGame/ColorGame-Prefix.pch";
 				INFOPLIST_FILE = "ColorGame/ColorGame-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -406,10 +475,13 @@
 		BF9B52331989E47900E43B8B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ColorGame/ColorGame-Prefix.pch";
 				INFOPLIST_FILE = "ColorGame/ColorGame-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -419,15 +491,15 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ColorGame.app/ColorGame";
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\\\"$(SDKROOT)/Developer/Library/Frameworks\\\"",
+					"\\\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\\\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ColorGame/ColorGame-Prefix.pch";
 				INFOPLIST_FILE = "ColorGameTests/ColorGameTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -436,15 +508,15 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ColorGame.app/ColorGame";
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
-					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\\\"$(SDKROOT)/Developer/Library/Frameworks\\\"",
+					"\\\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\\\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ColorGame/ColorGame-Prefix.pch";
 				INFOPLIST_FILE = "ColorGameTests/ColorGameTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -467,6 +539,7 @@
 				BF9B52331989E47900E43B8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF9B52341989E47900E43B8B /* Build configuration list for PBXNativeTarget "ColorGameTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +548,7 @@
 				BF9B52361989E47900E43B8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

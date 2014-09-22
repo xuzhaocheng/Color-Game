@@ -6,8 +6,8 @@
 //  Copyright (c) 2014年 louis. All rights reserved.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 
-@interface ColorGameTests : SenTestCase
+@interface ColorGameTests : XCTestCase
 
 @end
